@@ -4,12 +4,30 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+}
+
+.plant-wrapper {
+  display: flex;
+  margin-top: 32px;
+  gap: 52px;
+  justify-content: center;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
